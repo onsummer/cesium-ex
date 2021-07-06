@@ -1,0 +1,33 @@
+{
+  "name": "cesium-ex",
+  "version": "0.0.1",
+  "description": "CesiumJs basic but useful utilities.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onsummer/cesium-ex.git"
+  },
+  "keywords": [
+    "cesium"
+  ],
+  "author": "onsummer",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/onsummer/cesium-ex/issues"
+  },
+  "homepage": "https://github.com/onsummer/cesium-ex#readme",
+  "devDependencies": {
+    "@types/cesium": "^1.67.13",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "src/*/*.{ts,js,json}": [
+      "prettier --write"
+    ]
+  }
+}
